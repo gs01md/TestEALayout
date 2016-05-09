@@ -1,0 +1,39 @@
+{
+    
+    "selfView":{
+        
+        "class":"UIView",
+        
+        "backgroundColor":"blackColor",
+        
+        "addSubview":[
+                      
+                      {
+                      
+                      "class":"UIButton",
+                      
+                      "backgroundColor":"redColor",
+                      
+                      "text":"2222222",
+                      
+                      "layout":{"s":"l = 10,t=50,r=20,h=50"}
+                      
+                      },
+                      
+                      {
+                      
+                      "class":"UIButton",
+                      
+                      "backgroundColor":"greenColor",
+                      
+                      "text":"333333",
+                      
+                      "layout":{"s":"l = 10,t=100,r=20,h=50"}
+                      
+                      }
+                      
+                      ]
+        
+    }
+    
+}

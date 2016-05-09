@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20302DDD111B12A534C42AC6C06993A0FDCB4573",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20302DDD111B12A534C42AC6C06993A0FDCB4573" : 0,
+    "590C32C36933F00E35B403942B459162A8177A8F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7321D91B-A237-4D75-8C05-7989D3F68360",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20302DDD111B12A534C42AC6C06993A0FDCB4573" : "EAExtraLiteDemo1111\/",
+    "590C32C36933F00E35B403942B459162A8177A8F" : "EAExtraLiteDemo1111\/TestEALayout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EALayout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EALayout.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/easycodingTop\/EAExtraLiteDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20302DDD111B12A534C42AC6C06993A0FDCB4573"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gs01md\/TestEALayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "590C32C36933F00E35B403942B459162A8177A8F"
+    }
+  ]
+}

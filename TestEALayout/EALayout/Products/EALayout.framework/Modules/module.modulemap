@@ -1,0 +1,6 @@
+framework module EALayout {
+  umbrella header "EALayout.h"
+
+  export *
+  module * { export * }
+}
