@@ -4,19 +4,31 @@
         
         "class":"UIView",
         
-        "backgroundColor":"blackColor",
+        "linkStyle":"defaultBackStyle",
         
         "addSubview":[
                       
                       {
                       
-                      "class":"UIButton",
+                      "class":"UITextField",
                       
-                      "backgroundColor":"redColor",
+                      "backgroundColor":"whiteColor",
+
+                      "placeholder":"请输入用户名/手机号/邮箱",
                       
-                      "text":"2222222",
+                      "layout":{"s":"l=0,t=50,r=0,h=50","tag":1}
                       
-                      "layout":{"s":"l = 10,t=50,r=20,h=50"}
+                      },
+                      
+                      {
+                      
+                      "class":"UITextField",
+                      
+                      "backgroundColor":"whiteColor",
+                      
+                      "placeholder":"请输入密码",
+                      
+                      "layout":{"s":"t=2,l=0,r=0,h=50","tag":2,"asstag":1}
                       
                       },
                       
@@ -24,11 +36,15 @@
                       
                       "class":"UIButton",
                       
-                      "backgroundColor":"greenColor",
+                      "addTarget":"loginAction",
                       
-                      "text":"333333",
+                      "backgroundColor":"blueColor",
                       
-                      "layout":{"s":"l = 10,t=100,r=20,h=50"}
+                      "title":"登录",
+                      
+                      "font":20,
+                      
+                      "layout":{"s":"t=15,l=15,r=15,h=50","tag":3,"asstag":2}
                       
                       }
                       

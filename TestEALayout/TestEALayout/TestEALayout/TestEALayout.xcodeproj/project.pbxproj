@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41E5ABB1CE08AB700E2EDC7 /* common.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5AB91CE08AB700E2EDC7 /* common.json */; };
+		F41E5ABC1CE08AB700E2EDC7 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5ABA1CE08AB700E2EDC7 /* style.json */; };
+		F41E5ABE1CE08DE200E2EDC7 /* color.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5ABD1CE08DE200E2EDC7 /* color.json */; };
 		F4361B061CE07812009DF5F3 /* EALayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4361B051CE07812009DF5F3 /* EALayout.framework */; };
 		F4361B0A1CE07B4D009DF5F3 /* ViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F4361B091CE07B4D009DF5F3 /* ViewController.json */; };
 		F4EB45DA1CDC6966006E3B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45D91CDC6966006E3B50 /* main.m */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F41E5AB91CE08AB700E2EDC7 /* common.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = common.json; sourceTree = "<group>"; };
+		F41E5ABA1CE08AB700E2EDC7 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		F41E5ABD1CE08DE200E2EDC7 /* color.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color.json; sourceTree = "<group>"; };
 		F4361B051CE07812009DF5F3 /* EALayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EALayout.framework; sourceTree = "<group>"; };
 		F4361B091CE07B4D009DF5F3 /* ViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController.json; sourceTree = "<group>"; };
 		F4EB45D51CDC6966006E3B50 /* TestEALayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEALayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +53,9 @@
 		F4361B081CE07B4D009DF5F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F41E5ABD1CE08DE200E2EDC7 /* color.json */,
+				F41E5AB91CE08AB700E2EDC7 /* common.json */,
+				F41E5ABA1CE08AB700E2EDC7 /* style.json */,
 				F4361B091CE07B4D009DF5F3 /* ViewController.json */,
 			);
 			path = Resources;
@@ -152,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EB45E81CDC6966006E3B50 /* LaunchScreen.storyboard in Resources */,
+				F41E5ABB1CE08AB700E2EDC7 /* common.json in Resources */,
 				F4EB45E51CDC6966006E3B50 /* Assets.xcassets in Resources */,
+				F41E5ABE1CE08DE200E2EDC7 /* color.json in Resources */,
+				F41E5ABC1CE08AB700E2EDC7 /* style.json in Resources */,
 				F4361B0A1CE07B4D009DF5F3 /* ViewController.json in Resources */,
 				F4EB45E31CDC6966006E3B50 /* Main.storyboard in Resources */,
 			);

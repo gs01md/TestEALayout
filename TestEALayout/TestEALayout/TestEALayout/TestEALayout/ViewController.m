@@ -20,7 +20,6 @@
 
 @implementation ViewController
 
-
 -(instancetype)init{
     
     if (self = [super init]) {
@@ -98,12 +97,19 @@
     _skinParser = [SkinParser getParserByName:str];
     _skinParser.eventTarget = self;
     
-    NSLog(@"%@",[_skinParser getDict]);
     
     [self loadView];
     [self viewDidLoad];
     
 #endif
+}
+
+
+#pragma mark - 登录
+
+- (void) loginAction {
+    
+    NSLog(@"1");
 }
 
 @end
