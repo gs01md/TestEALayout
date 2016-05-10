@@ -87,6 +87,11 @@
 
 - (NSDictionary *)getDict;
 
+/**
+ *  根据名称获取视图
+ */
+- (UIView*) getViewByName:(NSString*)name;
+
 @end
 
 /*=================== C parse function ====================*/

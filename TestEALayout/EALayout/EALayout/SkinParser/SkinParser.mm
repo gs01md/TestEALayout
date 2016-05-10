@@ -10,6 +10,8 @@
 #import "SkinParser.h"
 #import "MatchPattern.h"
 #import "NSObject+SkinParser.h"
+#import "ViewInfoModel_EALayout.h"
+
 
 FOUNDATION_EXPORT double EALayoutVersionNumber = 0.0;
 FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
@@ -23,6 +25,11 @@ FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
 @implementation SkinParser
 {
     NSDictionary* _dict;
+    
+    /**
+     *  保存对象
+     */
+    NSMutableArray * m_dictProperty;
 }
 
 + (instancetype)getParserByName:(NSString*)filename
@@ -35,11 +42,15 @@ FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
     return [[SkinMgr sharedInstance] getParserByData:data];
 }
 
+
+
 - (instancetype)init:(NSDictionary*)dict
 {
     if(self = [super init])
     {
         _dict = dict;
+        
+        [self createViewArray];
     }
     return self;
 }
@@ -51,6 +62,7 @@ FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
 
 - (UIView*)parse:(NSString*)viewname view:(UIView*)view
 {
+    
     NSDictionary* dict = _dict[viewname];
     if(!_isRootParser && (!dict || [dict[sp_extend] integerValue]))
     {
@@ -82,7 +94,22 @@ FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
 
         for( NSString* key in dict )
         {
-            [view parseValue:dict[key] forKey:key parser:self];
+            /**
+             *  如果定义了属性名，则保存起来，供外部使用。
+             *  这样，外部就能获取到对象
+             */
+            if ([key isEqualToString:@"propertyName"]) {
+                
+                ViewInfoModel_EALayout * model = [ViewInfoModel_EALayout new];
+                
+                model.name = dict[key];
+                model.view = view;
+                
+                [m_dictProperty addObject:model];
+            }else{
+                
+                [view parseValue:dict[key] forKey:key parser:self];
+            }
         }
     }
     else if isNSString(dict)
@@ -91,6 +118,43 @@ FOUNDATION_EXPORT const char* EALayoutVersionString = "0.0";
     }
     return view;
 }
+
+#pragma mark - 获取列表
+/**
+ *  初始化对象列表
+ */
+- (void) createViewArray {
+    
+    if (!m_dictProperty) {
+        
+        m_dictProperty = [[NSMutableArray alloc] init];
+    }
+}
+
+/**
+ *  根据名称获取视图
+ */
+- (UIView*) getViewByName:(NSString*)name{
+    
+    UIView * view = nil;
+    
+    if (m_dictProperty) {
+        
+        for (ViewInfoModel_EALayout *temp in m_dictProperty) {
+            
+            if ([temp.name isEqualToString:name] ) {
+                
+                view = temp.view;
+                
+                break;
+            }
+        }
+        
+    }
+    
+    return view;
+}
+
 
 #pragma mark basevalue read
 

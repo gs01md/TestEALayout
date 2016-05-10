@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/SkinParser.h</key>
 		<data>
-		gRX2+CLtf7F/dMT0yglL/+MCuow=
+		bAv3X7IUCQnxkuq8+69ukQhs4hc=
 		</data>
 		<key>Headers/UIButton+SkinParser.h</key>
 		<data>
@@ -103,6 +103,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		O3TKhdCzSWrZwhNaj5fAlB3Bf7U=
+		</data>
+		<key>shareFirend.png</key>
+		<data>
+		afB1m+Fo+ooPYdqwSx1E015jPGc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -254,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gRX2+CLtf7F/dMT0yglL/+MCuow=
+			bAv3X7IUCQnxkuq8+69ukQhs4hc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9TJyxOkVtGtBzUyFU9E7iSpeg/eFc6rFf8/jfH1Ihg4=
+			ae82BYF0kKA6aUP0MQCFHPo2jujRuRLd3ZyVB3LdplI=
 			</data>
 		</dict>
 		<key>Headers/UIButton+SkinParser.h</key>
@@ -369,6 +373,17 @@
 			<key>hash2</key>
 			<data>
 			vhqw/jEmUGuFyn5pUxx8sPCOWpVGkpwcLjpTqsQaaZU=
+			</data>
+		</dict>
+		<key>shareFirend.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			afB1m+Fo+ooPYdqwSx1E015jPGc=
+			</data>
+			<key>hash2</key>
+			<data>
+			MFaPNrJhMSGD4Sju6U3mrFvenu0O6psHp8xxawBiTvI=
 			</data>
 		</dict>
 	</dict>

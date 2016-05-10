@@ -10,8 +10,12 @@
 		F41E5ABB1CE08AB700E2EDC7 /* common.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5AB91CE08AB700E2EDC7 /* common.json */; };
 		F41E5ABC1CE08AB700E2EDC7 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5ABA1CE08AB700E2EDC7 /* style.json */; };
 		F41E5ABE1CE08DE200E2EDC7 /* color.json in Resources */ = {isa = PBXBuildFile; fileRef = F41E5ABD1CE08DE200E2EDC7 /* color.json */; };
-		F4361B061CE07812009DF5F3 /* EALayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4361B051CE07812009DF5F3 /* EALayout.framework */; };
 		F4361B0A1CE07B4D009DF5F3 /* ViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F4361B091CE07B4D009DF5F3 /* ViewController.json */; };
+		F444B5C11CE1F55F00FD9FF4 /* EALayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */; };
+		F444B5C31CE1FA9200FD9FF4 /* teamIntroduceBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */; };
+		F444B5C91CE2065F00FD9FF4 /* shareFirend.png in Resources */ = {isa = PBXBuildFile; fileRef = F444B5C81CE2065F00FD9FF4 /* shareFirend.png */; };
+		F44AC6C31CE17B7F006F7464 /* LinerLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */; };
+		F44AC6C51CE17BA1006F7464 /* LinerLayoutViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */; };
 		F4EB45DA1CDC6966006E3B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45D91CDC6966006E3B50 /* main.m */; };
 		F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */; };
 		F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DF1CDC6966006E3B50 /* ViewController.m */; };
@@ -24,8 +28,13 @@
 		F41E5AB91CE08AB700E2EDC7 /* common.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = common.json; sourceTree = "<group>"; };
 		F41E5ABA1CE08AB700E2EDC7 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		F41E5ABD1CE08DE200E2EDC7 /* color.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color.json; sourceTree = "<group>"; };
-		F4361B051CE07812009DF5F3 /* EALayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EALayout.framework; sourceTree = "<group>"; };
 		F4361B091CE07B4D009DF5F3 /* ViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController.json; sourceTree = "<group>"; };
+		F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EALayout.framework; path = ../../EALayout/Products/EALayout.framework; sourceTree = "<group>"; };
+		F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teamIntroduceBack.jpg; path = TestEALayout/teamIntroduceBack.jpg; sourceTree = "<group>"; };
+		F444B5C81CE2065F00FD9FF4 /* shareFirend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareFirend.png; sourceTree = "<group>"; };
+		F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinerLayoutViewController.h; sourceTree = "<group>"; };
+		F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinerLayoutViewController.m; sourceTree = "<group>"; };
+		F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinerLayoutViewController.json; sourceTree = "<group>"; };
 		F4EB45D51CDC6966006E3B50 /* TestEALayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEALayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EB45D91CDC6966006E3B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4361B061CE07812009DF5F3 /* EALayout.framework in Frameworks */,
+				F444B5C11CE1F55F00FD9FF4 /* EALayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,18 +62,28 @@
 		F4361B081CE07B4D009DF5F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F444B5C81CE2065F00FD9FF4 /* shareFirend.png */,
 				F41E5ABD1CE08DE200E2EDC7 /* color.json */,
 				F41E5AB91CE08AB700E2EDC7 /* common.json */,
 				F41E5ABA1CE08AB700E2EDC7 /* style.json */,
 				F4361B091CE07B4D009DF5F3 /* ViewController.json */,
+				F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F444B5B71CE18ABC00FD9FF4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 		F4EB45CC1CDC6965006E3B50 = {
 			isa = PBXGroup;
 			children = (
-				F4361B051CE07812009DF5F3 /* EALayout.framework */,
+				F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */,
+				F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */,
 				F4EB45D71CDC6966006E3B50 /* TestEALayout */,
 				F4EB45D61CDC6966006E3B50 /* Products */,
 			);
@@ -81,6 +100,7 @@
 		F4EB45D71CDC6966006E3B50 /* TestEALayout */ = {
 			isa = PBXGroup;
 			children = (
+				F444B5B71CE18ABC00FD9FF4 /* image */,
 				F4361B081CE07B4D009DF5F3 /* Resources */,
 				F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */,
 				F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */,
@@ -91,6 +111,8 @@
 				F4EB45E61CDC6966006E3B50 /* LaunchScreen.storyboard */,
 				F4EB45E91CDC6966006E3B50 /* Info.plist */,
 				F4EB45D81CDC6966006E3B50 /* Supporting Files */,
+				F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */,
+				F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */,
 			);
 			path = TestEALayout;
 			sourceTree = "<group>";
@@ -161,8 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EB45E81CDC6966006E3B50 /* LaunchScreen.storyboard in Resources */,
+				F44AC6C51CE17BA1006F7464 /* LinerLayoutViewController.json in Resources */,
 				F41E5ABB1CE08AB700E2EDC7 /* common.json in Resources */,
 				F4EB45E51CDC6966006E3B50 /* Assets.xcassets in Resources */,
+				F444B5C31CE1FA9200FD9FF4 /* teamIntroduceBack.jpg in Resources */,
+				F444B5C91CE2065F00FD9FF4 /* shareFirend.png in Resources */,
 				F41E5ABE1CE08DE200E2EDC7 /* color.json in Resources */,
 				F41E5ABC1CE08AB700E2EDC7 /* style.json in Resources */,
 				F4361B0A1CE07B4D009DF5F3 /* ViewController.json in Resources */,
@@ -178,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */,
+				F44AC6C31CE17B7F006F7464 /* LinerLayoutViewController.m in Sources */,
 				F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */,
 				F4EB45DA1CDC6966006E3B50 /* main.m in Sources */,
 			);

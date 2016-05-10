@@ -1,24 +1,25 @@
 //
-//  ViewController.m
+//  LinerLayoutViewController.m
 //  TestEALayout
 //
-//  Created by Simon on 16/5/6.
+//  Created by Simon on 16/5/10.
 //  Copyright © 2016年 gaoshuai. All rights reserved.
 //
 
-#import "ViewController.h"
-#import <EALayout/EALayout.h>
 #import "LinerLayoutViewController.h"
+#import <EALayout/EALayout.h>
 
-@interface ViewController ()<EALayoutRefreshDelegate>{
+@interface LinerLayoutViewController ()<EALayoutRefreshDelegate>{
     
     EALayoutRefresh * refresh;
-    UIButton *btn;
+    
+    UIImageView * m_imageLeft;
 }
 @property (nonatomic, strong) SkinParser* skinParser;
 @end
 
-@implementation ViewController
+@implementation LinerLayoutViewController
+
 
 -(instancetype)init{
     
@@ -39,13 +40,13 @@
         NSString* skinPath = [[absolutePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Resources"];
         [SkinMgr sharedInstance].skinPath = skinPath;
         
-        #if DEBUG
+#if DEBUG
         refresh = [EALayoutRefresh shareInstance];
-        //refresh.delegate = self;
-        #endif
+        refresh.delegate = self;
+#endif
         
-
-
+        
+        
     }
     
     return self;
@@ -68,7 +69,11 @@
     
     [_skinParser parse:@"selfView" view:self.view];
     
+
+    m_imageLeft = (UIImageView*)[_skinParser getViewByName:@"leftImage"];
+
     
+
 }
 
 
@@ -79,11 +84,14 @@
     //在代码里对某个控件设置了属性，会影响布局的,就需要调用 spUpdateLayout
     //如 修改了 UILabel* label;   需要调用 [label.superview spUpdateLayout]
     //可以在修改多个控件属性后，再找到一个统一上层的父view, 调用一次即可
-
-    [self.view spUpdateLayout];
-    [self.view spUpdateLayout];
-
     
+    [self.view spUpdateLayout];
+    
+    
+    if (m_imageLeft) {
+        
+//        [m_imageLeft setImage: [UIImage imageNamed: @"shareFirend.png"]];
+    }
 }
 
 
@@ -104,21 +112,5 @@
 #endif
 }
 
-
-#pragma mark - 登录
-
-- (void) loginAction {
-    
-    LinerLayoutViewController * vc = [[LinerLayoutViewController alloc] init];
-    
-    UINavigationController * nav = self.navigationController;
-    
-    if (nav) {
-        
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    
-    
-}
 
 @end
