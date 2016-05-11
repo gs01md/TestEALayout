@@ -86,6 +86,7 @@
     //可以在修改多个控件属性后，再找到一个统一上层的父view, 调用一次即可
     
     [self.view spUpdateLayout];
+    [self.view spUpdateLayout];
     
     
     if (m_imageLeft) {

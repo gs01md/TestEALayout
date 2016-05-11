@@ -29,18 +29,22 @@
 
 - (void)addSubview:(UIView*)view
 {
-    if(self.hostView)
-    {
-        if(_layoutViews.lastObject)
+    if (view) {
+        
+        if(self.hostView)
         {
-            [self.hostView insertSubview:view aboveSubview:_layoutViews.lastObject];
+            if(_layoutViews.lastObject)
+            {
+                [self.hostView insertSubview:view aboveSubview:_layoutViews.lastObject];
+            }
+            else
+            {
+                [self.hostView insertSubview:view atIndex:_indexOfSubview];
+            }
         }
-        else
-        {
-            [self.hostView insertSubview:view atIndex:_indexOfSubview];
-        }
+        [_layoutViews addObject:view];
     }
-    [_layoutViews addObject:view];
+    
 }
 
 - (void)remove:(UIView*)view

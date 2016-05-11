@@ -5,30 +5,38 @@
         "addSubview":[
                       {
                       "class":"UIView",
-                      "backgroundColor":"redColor",
+                      "backgroundColor":"blueColor",
                       "layout":{
                       "s":"l,r,h=100,m"
                       },
                       "addSubview":[
                                     {
-                                    "class":"LinerLayout",
-                                    "layout":{
-                                    "s":"l=10,r=10,t,b"
-                                    },
-                                    "subviewsLayout":{
-                                    "s":"l"
-                                    },
+                                    "class":"UIView",
+                                    "backgroundColor":"redColor",
+                                    "layout":{"s":"l=10,m,r=10,h=100"},
                                     "addSubview":[
                                                   {
-                                                  "propertyName":"leftImage",
                                                   "class":"UIImageView",
                                                   "image":"shareFirend.png",
-                                                  "layout":{
-                                                  "s":"w=60,h=60"
-                                                  }
+                                                  "layout":{"s":"l=10,m,w=80,h=80","tag":1}
+                                                  },
+                                                  
+                                                  {
+                                                  "class":"UILabel",
+                                                  "textColor":"blackColor",
+                                                  "backgroundColor":"yellowColor",
+                                                  "font":18,
+                                                  "text":"这里文字可能是多行,自动计算高度",
+                                                  "numberOfLines":0,
+                                                  "layout":{"s":[
+                                                                 {"s":"m"},
+                                                                 {"s":"l=0","asstag":1}
+                                                                 ]}
                                                   }
                                                   ]
                                     }
+                                    
+                                    
                                     ]
                       }
                       ]

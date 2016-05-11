@@ -1,0 +1,143 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/build/Release-iphoneos/EALayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BaseLayouter.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/BaseLayouter.h"
+        },
+        {
+          'type': 'file',
+          'name': "CALayer+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/CALayer+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "EALayout-Swift.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/build/Release-iphoneos/EALayout.framework/Headers/EALayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EALayout.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/EALayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "EALayoutRefresh.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/EALayoutRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlowLayout+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/FlowLayout+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlowLayout.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/FlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "LayoutTypeDef.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/LayoutTypeDef.h"
+        },
+        {
+          'type': 'file',
+          'name': "LinerLayout+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/LinerLayout+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "LinerLayout.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/LinerLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "MatchPattern.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/MatchPattern.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/NSObject+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkinKeysDef.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/SkinKeysDef.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkinMgr.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/SkinMgr.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UIButton+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIControl+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UIControl+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UISegmentedControl+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UISegmentedControl+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableView+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UITableView+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableViewCell+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UITableViewCell+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextField+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UITextField+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+Layout.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UIView+Layout.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+SkinParser.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/UIView+SkinParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "ViewLayoutDes.h",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/EALayout/SkinParser/ViewLayoutDes.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/build/Release-iphoneos/EALayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/simon/Documents/githubProjects/TestEALayout/TestEALayout/EALayout/build/EALayout.build/Release-iphoneos/EALayout.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
