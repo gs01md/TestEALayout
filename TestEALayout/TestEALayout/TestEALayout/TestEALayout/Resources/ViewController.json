@@ -7,6 +7,23 @@
         "linkStyle":"defaultBackStyle",
         
         "addSubview":[
+                      {
+                      
+                      "class":"UIView",
+                      
+                      "layout":{"s":"t=64,w=sw,h=150","tag":10},
+                      
+                      "linkStyle":"defaultBackStyle",
+                      
+                      "addSubview":[
+                                    {
+                                    "class":"UIImageView",
+                                    "image":"shareFirend.png",
+                                    "layout":{"s":"t=80,c,m,w=80,h=mw","tag":1}
+                                    }
+                                   ]
+                      },
+                      
                       
                       {
                       
@@ -16,7 +33,9 @@
 
                       "placeholder":"请输入用户名/手机号/邮箱",
                       
-                      "layout":{"s":"l=0,t=50,r=0,h=50","tag":1}
+                      "layout":{"s":"t=0,h=50,w=sw","tag":2,"asstag":10},
+                      
+                      "font":18
                       
                       },
                       
@@ -28,7 +47,9 @@
                       
                       "placeholder":"请输入密码",
                       
-                      "layout":{"s":"t=2,l=0,r=0,h=50","tag":2,"asstag":1}
+                      "layout":{"s":"t=2,l=0,r=0,h=50","tag":3,"asstag":2},
+                      
+                      "font":18
                       
                       },
                       
@@ -38,13 +59,89 @@
                       
                       "addTarget":"loginAction",
                       
-                      "backgroundColor":"blueColor",
+                      "backgroundColor":[15,190,230],
+                      
+                      "layer.cornerRadius":7,
                       
                       "title":"登录",
                       
                       "font":20,
                       
-                      "layout":{"s":"t=15,l=15,r=15,h=50","tag":3,"asstag":2}
+                      "layout":{"s":"t=15,l=15,r=15,h=50","tag":4,"asstag":3}
+                      
+                      },
+                      
+                      {
+                      
+                      "class":"UILabel",
+                      
+                      "layer.cornerRadius":7,
+                      
+                      "text":"忘记密码？",
+                      
+                      "textColor":"clearColor",
+                      
+                      "font":18,
+                      
+                      "layout":{"s":"b=0,l=15,h=50","tag":20}
+                      
+                      },
+                      
+                      {
+                      
+                      "class":"UIButton",
+                      
+                      "addTarget":"forgetAction",
+                      
+                      "layer.cornerRadius":7,
+                      
+                      "textColor":"blackColor",
+                      
+                      "title":"忘记密码？",
+                      
+                      "font":18,
+                      
+                      "layout":{"s":[
+                                     {"s":"b=0,l=15"},
+                                     {"s":"w=fw,h=fh","asstag":20}
+                                     ]}
+                      
+                      },
+                      
+                      {
+                      
+                      "class":"UILabel",
+                      
+                      "layer.cornerRadius":7,
+                      
+                      "text":"注册",
+                      
+                      "textColor":"clearColor",
+                      
+                      "font":18,
+                      
+                      "layout":{"s":"b=0,l=15,h=50","tag":21}
+                      
+                      },
+                      
+                      {
+                      
+                      "class":"UIButton",
+                      
+                      "addTarget":"registerAction",
+                      
+                      "layer.cornerRadius":7,
+                      
+                      "textColor":"blackColor",
+                      
+                      "title":"注册",
+                      
+                      "font":18,
+                      
+                      "layout":{"s":[
+                                     {"s":"b=0,r=15"},
+                                     {"s":"w=fw,h=fh","asstag":21}
+                                     ]}
                       
                       }
                       

@@ -42,7 +42,7 @@
         
 #if DEBUG
         refresh = [EALayoutRefresh shareInstance];
-        refresh.delegate = self;
+        //refresh.delegate = self;
 #endif
         
         

@@ -121,4 +121,25 @@
     
 }
 
+- (void) forgetAction {
+    
+    LinerLayoutViewController * vc = [[LinerLayoutViewController alloc] init];
+    
+    UINavigationController * nav = self.navigationController;
+    
+    if (nav) {
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    
+}
+
+- (void) registerAction {
+    
+
+    
+    
+}
+
 @end
