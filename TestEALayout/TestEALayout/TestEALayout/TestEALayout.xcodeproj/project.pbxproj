@@ -16,6 +16,8 @@
 		F444B5C91CE2065F00FD9FF4 /* shareFirend.png in Resources */ = {isa = PBXBuildFile; fileRef = F444B5C81CE2065F00FD9FF4 /* shareFirend.png */; };
 		F44AC6C31CE17B7F006F7464 /* LinerLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */; };
 		F44AC6C51CE17BA1006F7464 /* LinerLayoutViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */; };
+		F4522C111CE4238000842F1B /* RegisterViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F4522C101CE4238000842F1B /* RegisterViewController.json */; };
+		F4522C181CE4320800842F1B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4522C171CE4320800842F1B /* RegisterViewController.m */; };
 		F4EB45DA1CDC6966006E3B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45D91CDC6966006E3B50 /* main.m */; };
 		F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */; };
 		F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DF1CDC6966006E3B50 /* ViewController.m */; };
@@ -32,15 +34,18 @@
 		F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EALayout.framework; path = ../../EALayout/Products/EALayout.framework; sourceTree = "<group>"; };
 		F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teamIntroduceBack.jpg; path = TestEALayout/teamIntroduceBack.jpg; sourceTree = "<group>"; };
 		F444B5C81CE2065F00FD9FF4 /* shareFirend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareFirend.png; sourceTree = "<group>"; };
-		F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinerLayoutViewController.h; sourceTree = "<group>"; };
-		F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinerLayoutViewController.m; sourceTree = "<group>"; };
+		F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinerLayoutViewController.h; path = ../LinerLayoutViewController.h; sourceTree = "<group>"; };
+		F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinerLayoutViewController.m; path = ../LinerLayoutViewController.m; sourceTree = "<group>"; };
 		F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinerLayoutViewController.json; sourceTree = "<group>"; };
+		F4522C101CE4238000842F1B /* RegisterViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegisterViewController.json; sourceTree = "<group>"; };
+		F4522C161CE4320800842F1B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F4522C171CE4320800842F1B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		F4EB45D51CDC6966006E3B50 /* TestEALayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEALayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EB45D91CDC6966006E3B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4EB45DE1CDC6966006E3B50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4EB45DF1CDC6966006E3B50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4EB45DE1CDC6966006E3B50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F4EB45DF1CDC6966006E3B50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F4EB45E21CDC6966006E3B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4EB45E41CDC6966006E3B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4EB45E71CDC6966006E3B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		F4361B081CE07B4D009DF5F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4522C101CE4238000842F1B /* RegisterViewController.json */,
 				F444B5C81CE2065F00FD9FF4 /* shareFirend.png */,
 				F41E5ABD1CE08DE200E2EDC7 /* color.json */,
 				F41E5AB91CE08AB700E2EDC7 /* common.json */,
@@ -77,6 +83,19 @@
 			children = (
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		F4522C121CE423A300842F1B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F4522C161CE4320800842F1B /* RegisterViewController.h */,
+				F4522C171CE4320800842F1B /* RegisterViewController.m */,
+				F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */,
+				F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */,
+				F4EB45DE1CDC6966006E3B50 /* ViewController.h */,
+				F4EB45DF1CDC6966006E3B50 /* ViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		F4EB45CC1CDC6965006E3B50 = {
@@ -100,19 +119,16 @@
 		F4EB45D71CDC6966006E3B50 /* TestEALayout */ = {
 			isa = PBXGroup;
 			children = (
+				F4522C121CE423A300842F1B /* Login */,
 				F444B5B71CE18ABC00FD9FF4 /* image */,
 				F4361B081CE07B4D009DF5F3 /* Resources */,
 				F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */,
 				F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */,
-				F4EB45DE1CDC6966006E3B50 /* ViewController.h */,
-				F4EB45DF1CDC6966006E3B50 /* ViewController.m */,
 				F4EB45E11CDC6966006E3B50 /* Main.storyboard */,
 				F4EB45E41CDC6966006E3B50 /* Assets.xcassets */,
 				F4EB45E61CDC6966006E3B50 /* LaunchScreen.storyboard */,
 				F4EB45E91CDC6966006E3B50 /* Info.plist */,
 				F4EB45D81CDC6966006E3B50 /* Supporting Files */,
-				F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */,
-				F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */,
 			);
 			path = TestEALayout;
 			sourceTree = "<group>";
@@ -188,6 +204,7 @@
 				F4EB45E51CDC6966006E3B50 /* Assets.xcassets in Resources */,
 				F444B5C31CE1FA9200FD9FF4 /* teamIntroduceBack.jpg in Resources */,
 				F444B5C91CE2065F00FD9FF4 /* shareFirend.png in Resources */,
+				F4522C111CE4238000842F1B /* RegisterViewController.json in Resources */,
 				F41E5ABE1CE08DE200E2EDC7 /* color.json in Resources */,
 				F41E5ABC1CE08AB700E2EDC7 /* style.json in Resources */,
 				F4361B0A1CE07B4D009DF5F3 /* ViewController.json in Resources */,
@@ -202,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4522C181CE4320800842F1B /* RegisterViewController.m in Sources */,
 				F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */,
 				F44AC6C31CE17B7F006F7464 /* LinerLayoutViewController.m in Sources */,
 				F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */,

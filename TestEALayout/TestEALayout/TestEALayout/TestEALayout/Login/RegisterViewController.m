@@ -6,10 +6,10 @@
 //  Copyright © 2016年 gaoshuai. All rights reserved.
 //
 
-#import "LinerLayoutViewController.h"
+#import "RegisterViewController.h"
 #import <EALayout/EALayout.h>
 
-@interface LinerLayoutViewController ()<EALayoutRefreshDelegate>{
+@interface RegisterViewController ()<EALayoutRefreshDelegate>{
     
     EALayoutRefresh * refresh;
     
@@ -18,7 +18,7 @@
 @property (nonatomic, strong) SkinParser* skinParser;
 @end
 
-@implementation LinerLayoutViewController
+@implementation RegisterViewController
 
 
 -(instancetype)init{
@@ -35,12 +35,11 @@
         //viewController里只实现通过json里指定的方法就可以了，不需要用代码绑定
         _skinParser.eventTarget = self;
         
-        
         [SkinMgr sharedInstance].skinPath = [[NSBundle mainBundle] resourcePath];
         
 #if DEBUG
-        //refresh = [EALayoutRefresh shareInstance];
-        //refresh.delegate = self;
+        refresh = [EALayoutRefresh shareInstance];
+        refresh.delegate = self;
 #endif
         
         
@@ -67,11 +66,8 @@
     
     [_skinParser parse:@"selfView" view:self.view];
     
-
-    m_imageLeft = (UIImageView*)[_skinParser getViewByName:@"leftImage"];
-
     
-
+    
 }
 
 
@@ -86,11 +82,6 @@
     [self.view spUpdateLayout];
     [self.view spUpdateLayout];
     
-    
-    if (m_imageLeft) {
-        
-//        [m_imageLeft setImage: [UIImage imageNamed: @"shareFirend.png"]];
-    }
 }
 
 

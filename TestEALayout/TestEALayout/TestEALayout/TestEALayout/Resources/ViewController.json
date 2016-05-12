@@ -33,6 +33,8 @@
 
                       "placeholder":"请输入用户名/手机号/邮箱",
                       
+                      "textAlignment":"center",
+                      
                       "layout":{"s":"t=0,h=50,w=sw","tag":2,"asstag":10},
                       
                       "font":18
@@ -46,6 +48,8 @@
                       "backgroundColor":"whiteColor",
                       
                       "placeholder":"请输入密码",
+                      
+                      "textAlignment":"center",
                       
                       "layout":{"s":"t=2,l=0,r=0,h=50","tag":3,"asstag":2},
                       

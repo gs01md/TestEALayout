@@ -1,0 +1,33 @@
+{
+    "selfView":{
+        "class":"UIView",
+        "linkStyle":"defaultBackStyle",
+        "addSubview":[
+                      {
+                      "class":"UIView",
+                      "backgroundColor":"blueColor",
+                      "layout":{
+                      "s":"l,r,h=100,m"
+                      },
+                      "addSubview":[
+                                    {
+                                    "class":"UIView",
+                                    "backgroundColor":"redColor",
+                                    "layout":{"s":"l=10,m,r=10,h=100"},
+                                    "addSubview":[
+                                                  {
+                                                  "class":"UIImageView",
+                                                  "image":"shareFirend.png",
+                                                  "layout":{"s":"l=10,m,w=80,h=80","tag":1}
+                                                  },
+                                                  
+                                                  
+                                                  ]
+                                    }
+                                    
+                                    
+                                    ]
+                      }
+                      ]
+    }
+}

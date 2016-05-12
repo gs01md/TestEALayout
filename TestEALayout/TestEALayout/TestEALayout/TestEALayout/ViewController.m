@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <EALayout/EALayout.h>
 #import "LinerLayoutViewController.h"
+#import "RegisterViewController.h"
 
 @interface ViewController ()<EALayoutRefreshDelegate>{
     
@@ -34,18 +35,14 @@
         //viewController里只实现通过json里指定的方法就可以了，不需要用代码绑定
         _skinParser.eventTarget = self;
         
-        
-        NSString*  absolutePath = [NSString stringWithUTF8String:__FILE__];
-        NSString* skinPath = [[absolutePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Resources"];
-        [SkinMgr sharedInstance].skinPath = skinPath;
+
+        [SkinMgr sharedInstance].skinPath = [[NSBundle mainBundle] resourcePath];
         
         #if DEBUG
-        refresh = [EALayoutRefresh shareInstance];
+        //refresh = [EALayoutRefresh shareInstance];
         //refresh.delegate = self;
         #endif
         
-
-
     }
     
     return self;
@@ -82,7 +79,6 @@
 
     [self.view spUpdateLayout];
     [self.view spUpdateLayout];
-
     
 }
 
@@ -123,7 +119,14 @@
 
 - (void) forgetAction {
     
-    LinerLayoutViewController * vc = [[LinerLayoutViewController alloc] init];
+
+    
+    
+}
+
+- (void) registerAction {
+    
+    RegisterViewController * vc = [[RegisterViewController alloc] init];
     
     UINavigationController * nav = self.navigationController;
     
@@ -131,14 +134,6 @@
         
         [self.navigationController pushViewController:vc animated:YES];
     }
-    
-    
-}
-
-- (void) registerAction {
-    
-
-    
     
 }
 
