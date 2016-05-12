@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <EALayout/EALayout.h>
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    NSString*  absolutePath = [NSString stringWithUTF8String:__FILE__];
+    NSString* skinPath = [[absolutePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Resources"];
+    
+    [SkinMgr sharedInstance].skinPath = skinPath;
     
     ViewController *main = [[ViewController alloc] init];
     

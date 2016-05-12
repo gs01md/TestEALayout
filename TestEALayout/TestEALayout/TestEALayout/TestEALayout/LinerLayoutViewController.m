@@ -36,8 +36,6 @@
         _skinParser.eventTarget = self;
         
         
-        [SkinMgr sharedInstance].skinPath = [[NSBundle mainBundle] resourcePath];
-        
 #if DEBUG
         //refresh = [EALayoutRefresh shareInstance];
         //refresh.delegate = self;

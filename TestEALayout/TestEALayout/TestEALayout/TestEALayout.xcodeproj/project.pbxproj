@@ -18,6 +18,7 @@
 		F44AC6C51CE17BA1006F7464 /* LinerLayoutViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F44AC6C41CE17BA1006F7464 /* LinerLayoutViewController.json */; };
 		F4522C111CE4238000842F1B /* RegisterViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F4522C101CE4238000842F1B /* RegisterViewController.json */; };
 		F4522C181CE4320800842F1B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4522C171CE4320800842F1B /* RegisterViewController.m */; };
+		F4522C1B1CE4763C00842F1B /* ip in Resources */ = {isa = PBXBuildFile; fileRef = F4522C1A1CE4763C00842F1B /* ip */; };
 		F4EB45DA1CDC6966006E3B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45D91CDC6966006E3B50 /* main.m */; };
 		F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */; };
 		F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DF1CDC6966006E3B50 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 		F4522C101CE4238000842F1B /* RegisterViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegisterViewController.json; sourceTree = "<group>"; };
 		F4522C161CE4320800842F1B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		F4522C171CE4320800842F1B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F4522C1A1CE4763C00842F1B /* ip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ip; sourceTree = "<group>"; };
 		F4EB45D51CDC6966006E3B50 /* TestEALayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEALayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EB45D91CDC6966006E3B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		F4361B081CE07B4D009DF5F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4522C1A1CE4763C00842F1B /* ip */,
 				F4522C101CE4238000842F1B /* RegisterViewController.json */,
 				F444B5C81CE2065F00FD9FF4 /* shareFirend.png */,
 				F41E5ABD1CE08DE200E2EDC7 /* color.json */,
@@ -201,6 +204,7 @@
 				F4EB45E81CDC6966006E3B50 /* LaunchScreen.storyboard in Resources */,
 				F44AC6C51CE17BA1006F7464 /* LinerLayoutViewController.json in Resources */,
 				F41E5ABB1CE08AB700E2EDC7 /* common.json in Resources */,
+				F4522C1B1CE4763C00842F1B /* ip in Resources */,
 				F4EB45E51CDC6966006E3B50 /* Assets.xcassets in Resources */,
 				F444B5C31CE1FA9200FD9FF4 /* teamIntroduceBack.jpg in Resources */,
 				F444B5C91CE2065F00FD9FF4 /* shareFirend.png in Resources */,

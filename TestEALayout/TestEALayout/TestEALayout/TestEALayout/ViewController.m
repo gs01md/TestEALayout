@@ -35,12 +35,9 @@
         //viewController里只实现通过json里指定的方法就可以了，不需要用代码绑定
         _skinParser.eventTarget = self;
         
-
-        [SkinMgr sharedInstance].skinPath = [[NSBundle mainBundle] resourcePath];
-        
         #if DEBUG
-        //refresh = [EALayoutRefresh shareInstance];
-        //refresh.delegate = self;
+//        refresh = [EALayoutRefresh shareInstance];
+//        refresh.delegate = self;
         #endif
         
     }
