@@ -19,6 +19,13 @@
 		F4522C111CE4238000842F1B /* RegisterViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = F4522C101CE4238000842F1B /* RegisterViewController.json */; };
 		F4522C181CE4320800842F1B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4522C171CE4320800842F1B /* RegisterViewController.m */; };
 		F4522C1B1CE4763C00842F1B /* ip in Resources */ = {isa = PBXBuildFile; fileRef = F4522C1A1CE4763C00842F1B /* ip */; };
+		F472BC551CE586260096B35B /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC531CE586260096B35B /* MOBFoundation.framework */; };
+		F472BC561CE586260096B35B /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC541CE586260096B35B /* SMS_SDK.framework */; };
+		F472BC581CE586B50096B35B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC571CE586B50096B35B /* libz.tbd */; };
+		F472BC5A1CE586C40096B35B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC591CE586C40096B35B /* libicucore.tbd */; };
+		F472BC5C1CE586CE0096B35B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC5B1CE586CE0096B35B /* MessageUI.framework */; };
+		F472BC5E1CE586D40096B35B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC5D1CE586D40096B35B /* JavaScriptCore.framework */; };
+		F472BC601CE586DE0096B35B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F472BC5F1CE586DE0096B35B /* libstdc++.tbd */; };
 		F4EB45DA1CDC6966006E3B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45D91CDC6966006E3B50 /* main.m */; };
 		F4EB45DD1CDC6966006E3B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DC1CDC6966006E3B50 /* AppDelegate.m */; };
 		F4EB45E01CDC6966006E3B50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB45DF1CDC6966006E3B50 /* ViewController.m */; };
@@ -33,7 +40,7 @@
 		F41E5ABD1CE08DE200E2EDC7 /* color.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color.json; sourceTree = "<group>"; };
 		F4361B091CE07B4D009DF5F3 /* ViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewController.json; sourceTree = "<group>"; };
 		F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EALayout.framework; path = ../../EALayout/Products/EALayout.framework; sourceTree = "<group>"; };
-		F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teamIntroduceBack.jpg; path = TestEALayout/teamIntroduceBack.jpg; sourceTree = "<group>"; };
+		F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teamIntroduceBack.jpg; path = ../teamIntroduceBack.jpg; sourceTree = "<group>"; };
 		F444B5C81CE2065F00FD9FF4 /* shareFirend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareFirend.png; sourceTree = "<group>"; };
 		F44AC6C11CE17B7F006F7464 /* LinerLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinerLayoutViewController.h; path = ../LinerLayoutViewController.h; sourceTree = "<group>"; };
 		F44AC6C21CE17B7F006F7464 /* LinerLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinerLayoutViewController.m; path = ../LinerLayoutViewController.m; sourceTree = "<group>"; };
@@ -42,6 +49,13 @@
 		F4522C161CE4320800842F1B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		F4522C171CE4320800842F1B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		F4522C1A1CE4763C00842F1B /* ip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ip; sourceTree = "<group>"; };
+		F472BC531CE586260096B35B /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		F472BC541CE586260096B35B /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		F472BC571CE586B50096B35B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F472BC591CE586C40096B35B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F472BC5B1CE586CE0096B35B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F472BC5D1CE586D40096B35B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F472BC5F1CE586DE0096B35B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		F4EB45D51CDC6966006E3B50 /* TestEALayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEALayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EB45D91CDC6966006E3B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EB45DB1CDC6966006E3B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472BC601CE586DE0096B35B /* libstdc++.tbd in Frameworks */,
+				F472BC5E1CE586D40096B35B /* JavaScriptCore.framework in Frameworks */,
+				F472BC5C1CE586CE0096B35B /* MessageUI.framework in Frameworks */,
+				F472BC5A1CE586C40096B35B /* libicucore.tbd in Frameworks */,
+				F472BC581CE586B50096B35B /* libz.tbd in Frameworks */,
+				F472BC561CE586260096B35B /* SMS_SDK.framework in Frameworks */,
+				F472BC551CE586260096B35B /* MOBFoundation.framework in Frameworks */,
 				F444B5C11CE1F55F00FD9FF4 /* EALayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +90,7 @@
 		F4361B081CE07B4D009DF5F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */,
 				F4522C1A1CE4763C00842F1B /* ip */,
 				F4522C101CE4238000842F1B /* RegisterViewController.json */,
 				F444B5C81CE2065F00FD9FF4 /* shareFirend.png */,
@@ -101,11 +123,33 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		F472BC521CE586260096B35B /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F472BC531CE586260096B35B /* MOBFoundation.framework */,
+				F472BC541CE586260096B35B /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		F472BC611CE587070096B35B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */,
+				F472BC5F1CE586DE0096B35B /* libstdc++.tbd */,
+				F472BC5D1CE586D40096B35B /* JavaScriptCore.framework */,
+				F472BC5B1CE586CE0096B35B /* MessageUI.framework */,
+				F472BC591CE586C40096B35B /* libicucore.tbd */,
+				F472BC571CE586B50096B35B /* libz.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		F4EB45CC1CDC6965006E3B50 = {
 			isa = PBXGroup;
 			children = (
-				F444B5C21CE1FA9200FD9FF4 /* teamIntroduceBack.jpg */,
-				F444B5C01CE1F55F00FD9FF4 /* EALayout.framework */,
+				F472BC611CE587070096B35B /* Framework */,
+				F472BC521CE586260096B35B /* SMS_SDK */,
 				F4EB45D71CDC6966006E3B50 /* TestEALayout */,
 				F4EB45D61CDC6966006E3B50 /* Products */,
 			);
@@ -347,6 +391,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TestEALayout",
+					"$(PROJECT_DIR)/SMS_SDK",
 				);
 				INFOPLIST_FILE = TestEALayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -367,6 +412,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TestEALayout",
+					"$(PROJECT_DIR)/SMS_SDK",
 				);
 				INFOPLIST_FILE = TestEALayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

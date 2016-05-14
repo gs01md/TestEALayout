@@ -5,7 +5,6 @@
         "addSubview":[
                       {
                       "class":"UIView",
-                      "backgroundColor":"blueColor",
                       "layout":{
                       "s":"l,r,h=100,m"
                       },

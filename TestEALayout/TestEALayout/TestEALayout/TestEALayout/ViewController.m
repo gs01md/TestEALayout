@@ -10,6 +10,7 @@
 #import <EALayout/EALayout.h>
 #import "LinerLayoutViewController.h"
 #import "RegisterViewController.h"
+#import <SMS_SDK/SMSSDK.h>
 
 @interface ViewController ()<EALayoutRefreshDelegate>{
     
@@ -123,15 +124,25 @@
 
 - (void) registerAction {
     
-    RegisterViewController * vc = [[RegisterViewController alloc] init];
+    [self initSMS];
     
-    UINavigationController * nav = self.navigationController;
+//    RegisterViewController * vc = [[RegisterViewController alloc] init];
+//    
+//    UINavigationController * nav = self.navigationController;
+//    
+//    if (nav) {
+//        
+//        [self.navigationController pushViewController:vc animated:YES];
+//    }
     
-    if (nav) {
-        
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+}
+
+-(void) initSMS {
     
+    //初始化应用，appKey和appSecret从后台申请得
+    [SMSSDK registerApp:@"12b512907e210"
+             withSecret:@"9b8b0eb112e90bbf40c84f41e3afa6b5"];
+
 }
 
 @end
